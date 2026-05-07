@@ -22,7 +22,7 @@ st.write("In this page, you are provided with an interactive map that:"
          "\n 3. Provides the name, address, city, state, and zipcode of the market when hovering over the dot")
 
 try:
-    pd.read_csv("Final_Project/farmersmarket_2026.csv", encoding="UTF-8")
+    df = pd.read_csv("Final_Project/farmersmarket_2026.csv")
 except FileNotFoundError:
     st.error("Dataset file not found.")
     st.stop()
