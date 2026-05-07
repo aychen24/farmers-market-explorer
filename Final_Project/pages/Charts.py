@@ -21,7 +21,7 @@ st.write("In this page, you are provided with 3 charts: \n 1. Shows the top 10 S
          "\n 3. Shows the top 5 cities by number of markets in the state you have selected on the filter as a pie chart")
 
 try:
-    df = pd.read_csv("farmersmarket_2026.csv", encoding="UTF-8")
+    pd.read_csv("Final_Project/farmersmarket_2026.csv", encoding="UTF-8")
 except FileNotFoundError:
     st.error("Dataset file not found.")
     st.stop()
