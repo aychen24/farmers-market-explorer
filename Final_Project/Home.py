@@ -1,7 +1,7 @@
 """
 Adin Chen
 CS230-8
-URL:
+URL: https://cs230-final-project-aychen.streamlit.app/
 
 This program is an interactive Streamlit application exploring USDA farmers market data across the United States. Users
 can filter the markets by state, city, and accepted payment methods while viewing interactive maps, charts, and tables.
