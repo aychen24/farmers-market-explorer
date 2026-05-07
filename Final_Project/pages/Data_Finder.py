@@ -21,7 +21,7 @@ st.write("In this page, you are provided with 2 interactive tables that:"
              "\n 3. Shows a table with the top cities based off of number of markets according to the filters")
 
 try:
-    df = pd.read_csv("farmersmarket_2026.csv", encoding="UTF-8")
+    pd.read_csv("Final_Project/farmersmarket_2026.csv", encoding="UTF-8")
 except FileNotFoundError:
     st.error("Dataset file not found.")
     st.stop()
