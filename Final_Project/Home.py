@@ -30,7 +30,7 @@ st.write("In this interactive Streamlit application, you can use the side bar to
          "\n 2. View information tables about markets \n 3. Use an interactive map to find the location of markets")
 
 try:
-    df = pd.read_csv("farmersmarket_2026.csv", encoding="UTF-8")
+    pd.read_csv("Final_Project/farmersmarket_2026.csv", encoding="UTF-8")
     df.columns = df.columns.str.strip()
     df = df[df["Parsed_State"].isin(STATE_MAP.keys())]
     df["State_Abbrev"] = df["Parsed_State"].map(STATE_MAP)
